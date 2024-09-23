@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tiket</string>
+    <string-array name="tujuan_options">
+        <item>Tujuan</item>
+        <item>Jakarta</item>
+        <item>Bandung</item>
+        <item>Solo</item>
+    </string-array>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/confirmationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berhasil Mendapatkan Tiket!"
+        android:textSize="24sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/confirmationIcon"
+        android:layout_width="121dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ic_verified" />
+
+    <TextView
+        android:id="@+id/namaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama      : "
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/jamTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jam         : "
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tanggalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal   : "
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tujuanTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tujuan     : "
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>
